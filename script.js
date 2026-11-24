@@ -40,19 +40,9 @@ ScrollReveal().reveal('.home-content, .heading', {origin: 'top'});
 ScrollReveal().reveal('.home-img, .project-card,.contact form', {origin: 'bottom'});
 ScrollReveal().reveal('.home-content h1,.about-img', {origin: 'left'});
 ScrollReveal().reveal('.home-content p,.about-content', {origin: 'right'});
-
-const typed = new Typed('.multiple-text',{
-    strings:['Frontend Developer'],
-    typeSpeed:100,
-    backSpeed:100,
-    backDelay:1000,
-    loop : true
-})
-
-ScrollReveal().reveal('.skills .skill', {
-    origin: 'left',
-    interval: 200,          
-    delay: 300,
-    distance: '60px',
-    easing: 'ease-in-out'
+ScrollReveal().reveal('.skill-card', {
+    origin: 'bottom',
+    interval: 120,
+    delay: 200,
+    distance: '40px'
 });
